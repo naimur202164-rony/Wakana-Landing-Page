@@ -137,3 +137,15 @@ header nav ul li:last-child {
 .service p {
   text-align: start;
 }
+
+/* Footer  */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .right ul {
+  list-style: upper-roman inside;
+}
