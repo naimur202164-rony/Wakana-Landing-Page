@@ -60,4 +60,30 @@ header nav ul li:last-child {
   background: var(--primary-color);
   padding: 10px 12px;
   border-radius: 5px;
+  color: var(--white-color);
+}
+
+/* Banner-Section */
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner .left h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.banner .left p {
+  font-size: 1rem;
+  padding: 1.5rem 0;
+}
+.banner .left .btn {
+  margin-top: 1rem;
+  background: var(--primary-color);
+  padding: 12px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: var(--white-color);
 }
