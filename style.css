@@ -97,6 +97,7 @@ header nav ul li:last-child {
 /* Brands Section */
 
 .brand-container {
+  padding: 100px 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -106,3 +107,33 @@ header nav ul li:last-child {
 }
 
 /* Feature Section */
+.feature {
+  background: var(--primary-color);
+}
+
+.feature p {
+  padding: 10px 0;
+  text-align: center;
+  color: var(--white-color);
+  font-family: "Popins", sans-serif;
+}
+.feature h2 {
+  font-size: 3rem;
+  color: var(--white-color);
+  font-family: "Popins", sans-serif;
+  padding: 20px 0px;
+  text-align: center;
+}
+.service-container {
+  gap: 1rem;
+  display: flex;
+  padding: 100px 0px;
+}
+
+.service h2 {
+  text-align: start;
+  font-size: 1.5rem;
+}
+.service p {
+  text-align: start;
+}
