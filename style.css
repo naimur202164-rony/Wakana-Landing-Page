@@ -39,8 +39,21 @@ header nav ul {
   list-style: none;
   gap: 1rem;
 }
+header nav ul li {
+  padding: 8px 12px;
+}
 header nav ul li a {
   font-size: 18px;
   text-decoration: none;
   color: var(--black-color);
+}
+
+header nav ul li a:hover {
+  color: gray;
+}
+
+header nav ul li:last-child {
+  background: var(--primary-color);
+  padding: 8px 12px;
+  border-radius: 5px;
 }
