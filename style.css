@@ -27,6 +27,10 @@ header nav .logo {
   align-items: center;
   gap: 0.5rem;
 }
+
+header nav .logo h3 {
+  font-size: 25px;
+}
 header nav {
   padding: 16px 0;
   display: flex;
@@ -40,7 +44,7 @@ header nav ul {
   gap: 1rem;
 }
 header nav ul li {
-  padding: 8px 12px;
+  padding: 12px 12px;
 }
 header nav ul li a {
   font-size: 18px;
@@ -54,6 +58,6 @@ header nav ul li a:hover {
 
 header nav ul li:last-child {
   background: var(--primary-color);
-  padding: 8px 12px;
+  padding: 10px 12px;
   border-radius: 5px;
 }
