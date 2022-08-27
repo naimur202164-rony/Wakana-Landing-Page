@@ -141,11 +141,25 @@ header nav ul li:last-child {
 /* Footer  */
 
 footer {
+  padding: 100px 0px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
+footer .left img {
+  width: 100%;
+}
+
 footer .right ul {
   list-style: upper-roman inside;
+}
+
+footer .right h2 {
+  padding: 10px 0px;
+  font-size: 2.2rem;
+}
+
+footer .right ul li {
+  line-height: 2em;
 }
