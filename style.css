@@ -5,6 +5,8 @@
 
 :root {
   --primary-color: #17a1fa;
+  --black-color: #000000;
+  --white-color: #ffffff;
 }
 /* Reset-Css */
 * {
