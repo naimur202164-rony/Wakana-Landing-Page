@@ -93,3 +93,16 @@ header nav ul li:last-child {
   text-decoration: none;
   color: var(--white-color);
 }
+
+/* Brands Section */
+
+.brand-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.brand-container img {
+  width: 5rem;
+}
+
+/* Feature Section */
