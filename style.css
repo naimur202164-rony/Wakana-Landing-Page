@@ -1,2 +1,15 @@
 /* Google Font Popins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap");
+
+/* Reset-Css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container */
+.container {
+  margin: 0 auto;
+  width: 1140px;
+}
