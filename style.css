@@ -69,7 +69,13 @@ header nav ul li:last-child {
   align-items: center;
   justify-content: space-around;
 }
-
+.banner .right img {
+  padding: 15px 0;
+  height: 350px;
+}
+.banner .right {
+  padding: 15px 0;
+}
 .banner .left h2 {
   font-size: 3rem;
   font-weight: bold;
