@@ -182,4 +182,11 @@ footer .right ul li {
 
   /* Brand-container
    */
+
+  .brand-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Feature-section */
 }
