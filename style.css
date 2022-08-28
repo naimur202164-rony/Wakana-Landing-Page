@@ -173,4 +173,13 @@ footer .right ul li {
   body {
     background-color: lightblue;
   }
+
+  /* Banner-section */
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Brand-container
+   */
 }
