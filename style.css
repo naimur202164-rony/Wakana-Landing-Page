@@ -163,3 +163,14 @@ footer .right h2 {
 footer .right ul li {
   line-height: 2em;
 }
+
+/* Mobile Respnsive */
+@media only screen and (max-width: 800px) {
+  header nav {
+    display: none;
+  }
+
+  body {
+    background-color: lightblue;
+  }
+}
